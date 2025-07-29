@@ -1,7 +1,6 @@
 package org.sunbird.common.models.util;
 
 import java.util.Arrays;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -156,9 +155,9 @@ public final class JsonKey {
   public static final String COURSE_IDS = "courseIds";
   public static final String COURSE_LIST = "courseList";
   public static final String COURSE_LOGO_URL = "courseLogoUrl";
-  public static final String COURSE_POSTER_IMAGE ="coursePosterImage";
-  public static final String POSTER_IMAGE ="posterImage";
-  public static final String PROVIDER_NAME ="providerName";
+  public static final String COURSE_POSTER_IMAGE = "coursePosterImage";
+  public static final String POSTER_IMAGE = "posterImage";
+  public static final String PROVIDER_NAME = "providerName";
   public static final String PROFILE_UPDATE_LINK = "profileUpdateLink";
   public static final String COURSE_MANAGEMENT_DB = "courseManagement_db";
   public static final String COURSE_NAME = "courseName";
@@ -1030,7 +1029,7 @@ public final class JsonKey {
   public static final String LEARNING_SERVICE_BASE_URL = "learning_service_base_url";
   public static final String CREATOR_DETAILS_FIELDS = "sunbird_user_search_cretordetails_fields";
   public static final String USER_SEARCH_BASE_URL = "sunbird_user_service_api_base_url";
-  public static final String SUNBIRD_QRCODE_COURSES_LIMIT ="sunbird_user_qrcode_courses_limit";
+  public static final String SUNBIRD_QRCODE_COURSES_LIMIT = "sunbird_user_qrcode_courses_limit";
   public static final String ACCESS_TOKEN_PUBLICKEY_BASEPATH = "accesstoken.publickey.basepath";
   public static final String ACCESS_TOKEN_PUBLICKEY_KEYPREFIX = "accesstoken.publickey.keyprefix";
   public static final String ACCESS_TOKEN_PUBLICKEY_KEYCOUNT = "accesstoken.publickey.keycount";
@@ -1038,14 +1037,14 @@ public final class JsonKey {
   public static final String SUB = "sub";
   public static final String DOT_SEPARATOR = ".";
   public static final String REQUESTED_FOR = "requestedFor";
-  public static final String CONTENT_PROPS_TO_ADD ="learning.content.props.to.add";
+  public static final String CONTENT_PROPS_TO_ADD = "learning.content.props.to.add";
   public static final String GROUP_ACTIVITY_DB = "groupActivityDB";
   public static final String ACTIVITYID = "activityId";
   public static final String ACTIVITYTYPE = "activityType";
   public static final String ACTIVITY_ID = "activity_id";
   public static final String ACTIVITY_TYPE = "activity_type";
-  public static final String GROUP_SERVICE_API_BASE_URL ="sunbird_group_service_api_base_url";
-  public static final String GROUP_MEMBERS_METADATA ="group.members.metadata";
+  public static final String GROUP_SERVICE_API_BASE_URL = "sunbird_group_service_api_base_url";
+  public static final String GROUP_MEMBERS_METADATA = "group.members.metadata";
   public static final String COLLECTION_ID = "collectionId";
   public static final String TRACKABLE_ENABLED = "trackable.enabled";
   public static final String GROUPBY = "groupBy";
@@ -1061,9 +1060,12 @@ public final class JsonKey {
   public static final String X_TRACE_ID = "x-trace-id";
   public static final String USER_ENROLMENTS_DB = "user_enrolments";
   public static final String ENROLLMENT_BATCH_DB = "enrollment_batch_lookup";
-  public static final List<String> CHANGE_IN_SIMPLE_DATE_FORMAT = Arrays.asList("startDate", "endDate", "enrollmentEndDate");
-  public static final List<String> CHANGE_IN_DATE_FORMAT = Arrays.asList("createdDate", "updatedDate");
-  public static final List<String> CHANGE_IN_DATE_FORMAT_ALL = Arrays.asList("startDate", "endDate", "enrollmentEndDate", "createdDate", "updatedDate");
+  public static final List<String> CHANGE_IN_SIMPLE_DATE_FORMAT =
+      Arrays.asList("startDate", "endDate", "enrollmentEndDate");
+  public static final List<String> CHANGE_IN_DATE_FORMAT =
+      Arrays.asList("createdDate", "updatedDate");
+  public static final List<String> CHANGE_IN_DATE_FORMAT_ALL =
+      Arrays.asList("startDate", "endDate", "enrollmentEndDate", "createdDate", "updatedDate");
   public static final String OLD_START_DATE = "oldStartDate";
   public static final String OLD_END_DATE = "oldEndDate";
   public static final String OLD_ENROLLMENT_END_DATE = "oldEnrollmentEndDate";
@@ -1092,12 +1094,14 @@ public final class JsonKey {
   public static final String CURRENT_BATCH_SIZE = "currentBatchSize";
   public static final String PRIMARYCATEGORY = "primaryCategory";
   public static final String PRIMARY_CATEGORY_BLENDED_PROGRAM = "Blended Program";
-  public static final String COURSE_BATCH_ENROLL_END_DATE_LESS = "enrol_end_date_allow_lesser_value";
+  public static final String COURSE_BATCH_ENROLL_END_DATE_LESS =
+      "enrol_end_date_allow_lesser_value";
   public static final String BATCH_ATTRIBUTES_KEY = "batch_attributes";
 
-  public static final String PAGE_SIZE_CONTENT_FETCH = "number_of_records_per_trip_content_cache_load";
+  public static final String PAGE_SIZE_CONTENT_FETCH =
+      "number_of_records_per_trip_content_cache_load";
 
-  public static final String LIVE= "live";
+  public static final String LIVE = "live";
 
   public static final String CONTENT_ELASTIC_SEARCH_TYPE_DOC = "content_elastic_search_doc_type";
 
@@ -1107,42 +1111,49 @@ public final class JsonKey {
   public static final String RETIRED_COURE_ENABLED = "retiredCoursesEnabled";
   public static final String FALSE = "false";
   public static final String PROGRAM_ID = "programId";
-  public static final String PROGRAM_ENROLL_ALLOWED_PRIMARY_CATEGORY = "program_enroll_allowed_primary_category";
-  public static final String PROGRAM_ENROLL_ALLOWED_CHILDREN_PRIMARY_CATEGORY = "program_enroll_allowed_children_primary_category";
-  public static final String CONTENT_HIERARCHY_STORE_KEY_SPACE_NAME = "content_hierarchy_store_key_space_name";
+  public static final String PROGRAM_ENROLL_ALLOWED_PRIMARY_CATEGORY =
+      "program_enroll_allowed_primary_category";
+  public static final String PROGRAM_ENROLL_ALLOWED_CHILDREN_PRIMARY_CATEGORY =
+      "program_enroll_allowed_children_primary_category";
+  public static final String CONTENT_HIERARCHY_STORE_KEY_SPACE_NAME =
+      "content_hierarchy_store_key_space_name";
   public static final String CONTENT_HIERARCHY_STORE_DB = "content_hierarchy";
-  public static final String PROGRAM_ENROLL_RESTRICTED_CHILDREN_PRIMARY_CATEGORY = "program_enroll_restricted_children_primary_category";
+  public static final String PROGRAM_ENROLL_RESTRICTED_CHILDREN_PRIMARY_CATEGORY =
+      "program_enroll_restricted_children_primary_category";
 
-  public static final String BLENDED_PROGRAM= "Blended Program";
-  public static final String PROGRAM= "Program";
-  public static final String CURATED_PROGRAM= "Curated Program";
-  public static final String PARENT_COLLECTIONS= "parentCollections";
-  public static final String ADMIN_PROGRAM_ENROLL_ALLOWED_PRIMARY_CATEGORY = "admin_program_enroll_allowed_primary_category";
+  public static final String BLENDED_PROGRAM = "Blended Program";
+  public static final String PROGRAM = "Program";
+  public static final String CURATED_PROGRAM = "Curated Program";
+  public static final String PARENT_COLLECTIONS = "parentCollections";
+  public static final String ADMIN_PROGRAM_ENROLL_ALLOWED_PRIMARY_CATEGORY =
+      "admin_program_enroll_allowed_primary_category";
   public static final String LMS_SERVICE_HOST = "lms.service.host";
   public static final String SUNBIRD_BATCH_UPDATE_NOTIFICATIONS_ENABLED =
-          "sunbird_batch_update_notification_enabled";
+      "sunbird_batch_update_notification_enabled";
 
   public static final String REGARDS = "regards";
-  public static final String SUNBIRD_BATCH_DATE_UPDATE_NOTIFICATIONS_SUBJECT = "sunbird_batch_date_update_notifications_subject" ;
+  public static final String SUNBIRD_BATCH_DATE_UPDATE_NOTIFICATIONS_SUBJECT =
+      "sunbird_batch_date_update_notifications_subject";
   public static final String LMS_SEND_EMAIL_NOTIFICATION_PATH = "lms.send.email.notification";
   public static final String USER_COURSE_ENROLMENT_INFO = "userCourseEnrolmentInfo";
   public static final String ISSUED_CERTIFICATES = "issuedCertificates";
   public static final String TIME_SPENT_ON_COMPLETED_COURSES = "timeSpentOnCompletedCourses";
   public static final String CERITFICATES_ISSUED = "certificatesIssued";
   public static final String COURSES_IN_PROGRESS = "coursesInProgress";
-  public static final String SEARCH_IDENTIFIER_MAX_SIZE ="search_identifier_max_size";
+  public static final String SEARCH_IDENTIFIER_MAX_SIZE = "search_identifier_max_size";
   public static final String KARMA_POINTS = "karmaPoints";
   public static final String USER_KARMA_POINTS_DB = "user_karma_points_summary";
   public static final String USER_KARMA_TOTAL_POINTS = "total_points";
   public static final String ADD_INFO = "addinfo";
-  public static final String USERID_LIST="userIdList";
+  public static final String USERID_LIST = "userIdList";
   public static final String LRC_PROGRESS_DETAILS = "lrcProgressDetails";
   public static final String USERS_COUNT = "system.count(userid)";
-  public static final String COURSE_ENROLL_ALLOWED_PRIMARY_CATEGORY = "course_enroll_allowed_primary_category";
+  public static final String COURSE_ENROLL_ALLOWED_PRIMARY_CATEGORY =
+      "course_enroll_allowed_primary_category";
   public static final String START_DATE_BATCH = "start_date";
   public static final String END_DATE_BATCH = "end_date";
   public static final String ADD_EXTRA_HOURS_MINS = "addExtraHrsAndMins.start_date_end_date";
-  public static final String STANDALONE_ASSESSMENT ="Standalone Assessment";
+  public static final String STANDALONE_ASSESSMENT = "Standalone Assessment";
   public static final String EVENT_ID = "eventId";
   public static final String EVENT_BATCH_DB = "eventBatchDB";
   public static final String KEYSPACE_SUNBIRD_COURSES = "sunbird_courses";
@@ -1177,25 +1188,31 @@ public final class JsonKey {
   public static final String MEETING_LINK_URL = "meeting_link_url";
   public static final String MEETING_LINK = "meetingLink";
   public static final String KARMAYOGI_SAPTAH_END_DATE = "karmayogi_saptah_end_date";
-  public static final String ENROLLMENT_LIST_CACHE_BATCH_FETCH_ENABLED ="use_cache_for_enrollment_list_batch_fetch";
-  public static final String TRUE="true";
-  public static final String EVENT_COMPLETION_PERCENTAGE="eventCompletionPercentage";
+  public static final String ENROLLMENT_LIST_CACHE_BATCH_FETCH_ENABLED =
+      "use_cache_for_enrollment_list_batch_fetch";
+  public static final String TRUE = "true";
+  public static final String EVENT_COMPLETION_PERCENTAGE = "eventCompletionPercentage";
   public static final String ISSUE_EVENT_CERTIFICATE = "issue-event-certificate";
   public static final String PROGRAM_CATEGORIES = "program_categories";
   public static final String REISSUE_DATE = "reIssueDate";
-  public static final String INVALID_DATE_TIME = "Invalid date/time format. Expected format: yyyy-MM-dd HH:mm:ss";
-  public static final String PROGRAM_CHILDREN_COURSES_ALLOWED_PRIMARY_CATEGORY = "program_children_courses_allowed_primary_category";
+  public static final String INVALID_DATE_TIME =
+      "Invalid date/time format. Expected format: yyyy-MM-dd HH:mm:ss";
+  public static final String PROGRAM_CHILDREN_COURSES_ALLOWED_PRIMARY_CATEGORY =
+      "program_children_courses_allowed_primary_category";
   public static final String COURSECATEGORY = "courseCategory";
   public static final String EXTERNAL_COURSES_ENROLMENT_DB = "externalCoursesEnrolment_db";
-  public static final String USER_COURSE_EXTERNAL_ENROLMENT_INFO = "userExternalCourseEnrolmentInfo";
+  public static final String USER_COURSE_EXTERNAL_ENROLMENT_INFO =
+      "userExternalCourseEnrolmentInfo";
   public static final String CB_PORES_SERVICE_BASE_URL = "cb_pores_service_base_url";
-  public static final String CB_PORES_CIOS_EXTERNAL_CONTENT_SEARCH_BASE_URL = "cb_pores_cios_external_content_search_url";
+  public static final String CB_PORES_CIOS_EXTERNAL_CONTENT_SEARCH_BASE_URL =
+      "cb_pores_cios_external_content_search_url";
   public static final String TOTAL_COUNT = "totalCount";
   public static final String IS_ACTIVE = "isActive";
   public static final String PAGE_NUMBER = "pageNumber";
   public static final String PAGE_SIZE = "pageSize";
   public static final String FILTER_CRITERIA_MAP = "filterCriteriaMap";
-  public static final String MAXIMUM_LIMIT_ALLOWED_FOR_ENROL_LIST ="maximum_allowed_limit_enrol_list";
+  public static final String MAXIMUM_LIMIT_ALLOWED_FOR_ENROL_LIST =
+      "maximum_allowed_limit_enrol_list";
   public static final String KEYSPACE_SUNBIRD = "sunbird";
   public static final String TABLE_USER = "user";
   public static final String FEATURE_EVENTS_REDIS_KEY = "feature_events_redis_key";
@@ -1209,7 +1226,8 @@ public final class JsonKey {
   public static final String HOURS_SPENT = "hoursSpentOnEvents";
   public static final String CONTEXT_CATEGORY = "contextCategory";
   public static final String FINAL_PROGRAM_ASSESSMENT = "Final Program Assessment";
-  public static final String ALLOWED_RESOURCES_FOR_PROGRAM_STATUS_UPDATE = "status_update_allowed_program_resources";
+  public static final String ALLOWED_RESOURCES_FOR_PROGRAM_STATUS_UPDATE =
+      "status_update_allowed_program_resources";
   public static final String QUESTION_SET_MIME_TYPE = "application/vnd.sunbird.questionset";
   public static final String CONTENT_TTL = "content_ttl";
   public static final String USER_INFO_DB = "userInfo_db";
@@ -1228,11 +1246,15 @@ public final class JsonKey {
   public static final String CIVIL_SERVICE_NAME = "civilServiceName";
   public static final String CADRE_BATCH = "cadreBatch";
   public static final String CADRE_DETAILS = "cadreDetails";
-  public static final String COMPLETION_PERCENTAGE="completionPercentage";
+  public static final String COMPLETION_PERCENTAGE = "completionPercentage";
   public static final String CADRE = "cadre";
   public static final String EXTERNAL_COURSES = "external_courses";
   public static final String PARTICIPANTS_TTL = "participants_ttl";
   public static final String PARTICIPANTS_FETCH_SIZE = "participants_fetch_size";
+  public static final String USER_COURSE_ENROLMENT_SUMMARY_KEY = "user:course:enrolment:summary:";
+  public static final String USER_EVENT_ENROLMENT_SUMMARY_KEY = "user:event:enrolment:summary:";
+  public static final String USER_ENROLMENTS_RESPONSE_CACHE_TTL =
+      "user_enrolments_response_cache_ttl";
 
   private JsonKey() {}
 }

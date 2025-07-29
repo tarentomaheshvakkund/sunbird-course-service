@@ -139,6 +139,8 @@ class CourseEnrolmentActorV3 @Inject()(implicit val  cacheUtil: RedisCacheUtil )
       val resp: Response = new Response()
       resp.put(JsonKey.USER_COURSE_ENROLMENT_INFO, userCourseEnrolmentInfo)
       resp.put(JsonKey.USER_COURSE_EXTERNAL_ENROLMENT_INFO, externalCourseInfo)
+      val key = s"${JsonKey.USER_COURSE_ENROLMENT_SUMMARY_KEY}$userId"
+      cacheUtil.set(key, mapper.writeValueAsString(resp), ttl)
       sender().tell(resp, self)
     }catch {
       case e: Exception =>
